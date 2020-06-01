@@ -1,4 +1,5 @@
 var THREE = require("three");
+var nodeCanvas = require("canvas");
 
 /**
  * @author mrdoob / http://mrdoob.com/
@@ -1776,7 +1777,7 @@ THREE.CanvasRenderer = function ( parameters ) {
 
 		}
 
-		var canvas = document.createElement( 'canvas' );
+		var canvas = nodeCanvas.createCanvas(image.width, image.height);
 		canvas.width = image.width;
 		canvas.height = image.height;
 

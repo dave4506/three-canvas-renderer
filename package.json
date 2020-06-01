@@ -20,5 +20,8 @@
   "homepage": "https://github.com/socialtables/render-engine",
   "peerDependencies": {
     "three": ">=0.84.0"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1"
   }
 }
